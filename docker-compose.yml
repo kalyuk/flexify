@@ -1,0 +1,10 @@
+version: "3.8"
+services: 
+  project:
+    container_name: project
+    build:
+      context: .
+      dockerfile: .docker/node.dockerfile
+    volumes: 
+      - $PWD:/mnt/project
+    command: ["npm", "run", "dev"]

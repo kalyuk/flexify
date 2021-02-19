@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "lib": [
+            "dom",
+            "es2015",
+            "esnext"
+        ],
+        "skipLibCheck": true,
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": false,
+        "noImplicitAny": false,
+        "target": "ESNext"
+    },
+    "exclude": [
+        "node_modules",
+        "tmp"
+    ]
+}

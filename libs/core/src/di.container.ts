@@ -1,5 +1,5 @@
 export class DiContainer {
     constructor() {
-        console.log("testss")
+        console.log("testssfddf")
     }
 }

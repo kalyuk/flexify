@@ -43,7 +43,7 @@
     }
   },
   "lint-staged": {
-    ".*.ts": [
+    "*.{tx, tsx}": [
       "npm run lint",
       "npm run test"
     ]
